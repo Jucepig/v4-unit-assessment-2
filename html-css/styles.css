@@ -16,6 +16,7 @@ body {
   font-family: 'Nunito', sans-serif;
   margin: 0;
   padding: 0;
+  position:relative;
 }
 
 .flex-row {
@@ -196,7 +197,7 @@ ol li {
 }
 
 #footer { 
-  height: 30px;
+  height: 40px;
   width: 100%;
   background-color:rgb(42, 171, 226);
   align-items: center;
@@ -207,4 +208,12 @@ ol li {
 #footer h5 {
   font-size: 12px;
   font-weight: 700;
+}
+
+#help-icon {
+  width: 23px;
+  position:fixed;
+  z-index: 20;
+  bottom: 10px;
+  right: 10px;
 }
