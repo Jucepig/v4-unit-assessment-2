@@ -44,7 +44,7 @@ header {
   z-index: 100;
 }
 
-header h2 {
+header h1 {
   font-size: 25px;
 }
 
@@ -92,7 +92,7 @@ main {
   height: 230px;
 }
 
-#profile h4 {
+#profile h2 {
   font-size: 20px;
   font-weight: 650;
 }
